@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+    object-fit: cover;
+    background-image: url(../img/background-technology-desktop.jpg);
+    background-size: cover;
+}
+
+
+/*Nav*/
+.nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 30px 0 0 30px;
+    height: 100px;
+}
+
+.nav img{
+    height: 48px;
+    width: 48px;
+}
+
+.line{
+    background-color: #ffffff;
+    height: 1px;
+    width: 35%;
+    margin: 0 30px;
+
+}
+
+.links{
+    position: absolute;
+    right: 0;
+    background:#ffffff33;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+    backdrop-filter: blur(15px);
+    height: 102px;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+    margin: auto 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+}
+
+/*Hover Nav*/
+
+.nav-link hr{
+    position: absolute;
+    width: 145px;
+    top: 50px;
+    left: 0;
+    height: 3px;
+    background-color: #fff;
+    border: none;
+}
+
+.nav-link-1 hr{
+    width: 0px;
+}
+
+.nav-link-2 hr{
+    width: 0px;
+}
+
+.nav-link-3 hr{
+    width: 0px;
+}
+
+.nav-link-4 hr{
+    width: 0;
+}
+
+.nav-link-1:hover hr{
+    width: 145px;
+    transition: 0.5s;
+    background-color: #ffffff98;
+}
+
+
+.nav-link-2:hover hr{
+    width: 85px;
+    transition: 0.5s;
+    background-color: #ffffff98;
+}
+
+.nav-link-3:hover hr{
+    width: 150px;
+    transition: 0.5s;
+    background-color: #ffffff98;
+}
+
+.nav-link-4:hover hr{
+    width: 80px;
+    transition: 0.5s;
+    background-color: #ffffff98;
+}
+
+/*Title*/
+
+.title strong{
+    color: #818181;
+    margin-right: 5px;
+}
+
+.title {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 100;
+    margin: 150px 0 100px 230px;
+}
+
+.tech{
+    display: flex;
+    margin:0 183px;
+
+}
+
+/*Number*/
+
+.number{
+    display: flex;
+    flex-direction: column;
+}
+
+.cir{
+    height: 50px;
+    width: 50px;
+    border: solid 1px #fff;
+    border-radius: 50%;
+    text-decoration: none;  
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active{
+    background-color: #fff;
+    color: #000;
+}
+
+.span-1:hover{
+    background-color: #818181;
+    color: #000;
+}
+
+.span-2:hover{
+    background-color: #818181;
+    color: #000;
+}
+
+/*Text*/
+
+.text{
+    width: 50%;
+    margin-left: 30px;
+}
+
+.subtitle{
+    color: #d0d6f9;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Bellefair', sans-serif;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+.text h1{
+    font-family: 'Bellefair', sans-serif;
+    font-weight: 100;
+    color: #fff;
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+.text p{
+    color: #d0d6f9;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 150px;
+}
+
+/*Image*/
+
+.tech img{
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+}
